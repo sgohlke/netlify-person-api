@@ -2,8 +2,6 @@ import { Handler } from "@netlify/functions";
 import { PersonService } from "./personservice";
 
 const handler: Handler = async (event, context) => {
-    console.log('path is', event.path, ' query string params are ', event.queryStringParameters)
-
     const response = {
       headers: {"content-type": "application/json" },
       statusCode: 200,
