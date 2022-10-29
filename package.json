@@ -1,0 +1,27 @@
+{
+  "name": "netlify-person-api",
+  "version": "1.0.0",
+  "description": "Person API example using Netlify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgohlke/netlify-person-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgohlke/netlify-person-api/issues"
+  },
+  "homepage": "https://github.com/sgohlke/netlify-person-api#readme",
+  "dependencies": {
+    "@netlify/functions": "^1.3.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.0.11",
+    "typescript": "^4.8.4"
+  }
+}
